@@ -1,0 +1,22 @@
+.NodeView
+  content ''
+  --x 0
+  --y 0
+  --width 0
+  --height 0
+  --scale-x 1
+  --scale-y 1
+  --font-size 16px
+
+  position absolute
+  top calc(var(--y) * 1px)
+  left calc(var(--x) * 1px)
+  width calc(var(--width) * 1px)
+  height calc(var(--height) * 1px)
+  transform-origin top left
+  transform scale(var(--scale-x), var(--scale-y))
+
+  font-size var(--font-size)
+  line-height var(--font-size)
+  padding .2em
+  background-color rgba(#000, 0.2)
